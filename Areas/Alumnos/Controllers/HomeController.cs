@@ -5,10 +5,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Alkemy.Models;
 
-namespace Alkemy.Controllers
+using Alkemy.Modelos.ViewModels;
+
+namespace Alkemy.Area.Alumnos.Controllers
 {
+    [Area("Alumnos")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alkemy", "Alkemy.csproj", "{5B41F083-600B-45DC-9182-195CA78A456B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alkemy", "Alkemy.csproj", "{5B41F083-600B-45DC-9182-195CA78A456B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alkemy.AccesoDatos", "..\Alkemy.AccesoDatos\Alkemy.AccesoDatos.csproj", "{DD9F78BE-390E-4E2A-B54D-CE95C40AC9CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alkemy.Modelos", "..\Alkemy.Modelos\Alkemy.Modelos.csproj", "{5C028195-9E22-4589-A1AF-C4A6ABAD7CF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alkemy.Utilidades", "..\Alkemy.Utilidades\Alkemy.Utilidades.csproj", "{A0658EDE-3548-4FF6-8AD4-8161D79B14C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{5B41F083-600B-45DC-9182-195CA78A456B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B41F083-600B-45DC-9182-195CA78A456B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B41F083-600B-45DC-9182-195CA78A456B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD9F78BE-390E-4E2A-B54D-CE95C40AC9CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD9F78BE-390E-4E2A-B54D-CE95C40AC9CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD9F78BE-390E-4E2A-B54D-CE95C40AC9CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD9F78BE-390E-4E2A-B54D-CE95C40AC9CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C028195-9E22-4589-A1AF-C4A6ABAD7CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C028195-9E22-4589-A1AF-C4A6ABAD7CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C028195-9E22-4589-A1AF-C4A6ABAD7CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C028195-9E22-4589-A1AF-C4A6ABAD7CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0658EDE-3548-4FF6-8AD4-8161D79B14C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0658EDE-3548-4FF6-8AD4-8161D79B14C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0658EDE-3548-4FF6-8AD4-8161D79B14C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0658EDE-3548-4FF6-8AD4-8161D79B14C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
